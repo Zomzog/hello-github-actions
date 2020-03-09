@@ -2,11 +2,6 @@ name: "Slack notify"
 description: "Hellp"
 author: "Zomzog@gmail.com"
 
-inputs:
-  BRANCH_NAME:
-    description: "Branch name"
-    required: true
-
 runs:
   using: "docker"
   image: "Dockerfile"
