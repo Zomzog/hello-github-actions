@@ -13,6 +13,6 @@ jobs:
         with:
           BRANCH_NAME: $GITHUB_REF
       - name: Changelog check
-        uses: Zomzog/changelog-checker@0.0.1
+        uses: Zomzog/changelog-checker@v0.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
